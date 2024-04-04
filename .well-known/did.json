@@ -1,6 +1,7 @@
 {
   "@context": [
     "https://www.w3.org/ns/did/v1",
+    "https://identity.foundation/linked-vp/contexts/v1",
     {
       "Ed25519VerificationKey2018": "https://w3id.org/security#Ed25519VerificationKey2018",
       "publicKeyJwk": {
@@ -27,5 +28,12 @@
   ],
   "assertionMethod": [
     "did:web:broken-example.identinet.io#z6MkogF8SfmeAPX9yzruS7wTn2VZrDWA9QUEaUQwaE3MtRLa"
+  ],
+  "service": [
+    {
+      "id": "did:web:id-plus.localhost%3A8443#plain",
+      "type": "LinkedVerifiablePresentation",
+      "serviceEndpoint": "https://broken-example.identinet.io/.well-known/presentation.json"
+    }
   ]
 }
