@@ -14,8 +14,8 @@ broken publicly accessible Verifiable Presentation / Credential.
 
 ## Files
 
-[.well-known/did.json](.well-known/did.json)
-[.well-known/presentation.json](.well-known/presentation.json)
+- [.well-known/did.json](.well-known/did.json)
+- [.well-known/presentation.json](.well-known/presentation.json)
 
 ## Expected Verification Status
 
