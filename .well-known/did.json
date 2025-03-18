@@ -10,30 +10,32 @@
       }
     }
   ],
-  "id": "did:web:broken-example.identinet.io",
+  "id": "did:web:id-broken-plus-well-known-example.identinet.io",
   "verificationMethod": [
     {
-      "id": "did:web:broken-example.identinet.io#z6MkogF8SfmeAPX9yzruS7wTn2VZrDWA9QUEaUQwaE3MtRLa",
-      "type": "Ed25519VerificationKey2018",
-      "controller": "did:web:broken-example.identinet.io",
+      "id": "did:web:id-broken-plus-well-known-example.identinet.io#ahQ27FmA_0GfMt_95GFvhBA0RpiDgkyGqsVVXPqxV0w",
+      "type": "Ed25519VerificationKey2020",
+      "controller": "did:web:id-broken-plus-well-known-example.identinet.io",
       "publicKeyJwk": {
         "kty": "OKP",
+        "kid": "ahQ27FmA_0GfMt_95GFvhBA0RpiDgkyGqsVVXPqxV0w",
         "crv": "Ed25519",
-        "x": "iQyyXcAyn0V6W0vJSEXlfh1eBJT0uDhdXwTVe1wkwgc"
+        "alg": "EdDSA",
+        "x": "L5pJ7fxaKfiSNl-rzTR9bANOvlFZWBo84o9gxCSgNkw"
       }
     }
   ],
   "authentication": [
-    "did:web:broken-example.identinet.io#z6MkogF8SfmeAPX9yzruS7wTn2VZrDWA9QUEaUQwaE3MtRLa"
+    "did:web:id-broken-plus-well-known-example.identinet.io#ahQ27FmA_0GfMt_95GFvhBA0RpiDgkyGqsVVXPqxV0w"
   ],
   "assertionMethod": [
-    "did:web:broken-example.identinet.io#z6MkogF8SfmeAPX9yzruS7wTn2VZrDWA9QUEaUQwaE3MtRLa"
+    "did:web:id-broken-plus-well-known-example.identinet.io#ahQ27FmA_0GfMt_95GFvhBA0RpiDgkyGqsVVXPqxV0w"
   ],
   "service": [
     {
       "id": "did:web:broken-example.identinet.io#presentation",
       "type": "LinkedVerifiablePresentation",
-      "serviceEndpoint": "https://broken-example.identinet.io/.well-known/presentation.json"
+      "serviceEndpoint": "https://id-broken-plus-well-known-example.identinet.io/.well-known/presentation.json"
     }
   ]
 }
