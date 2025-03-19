@@ -17,25 +17,25 @@
       ],
       "credentialSubject": {
         "id": "did:web:id-broken-plus-well-known-example.identinet.io",
-        "broken": "tampered attribute"
+        "TAMPERED": "with credential"
       },
       "issuer": "did:web:id-broken-plus-well-known-example.identinet.io",
-      "issuanceDate": "2025-03-18T10:49:34Z",
+      "issuanceDate": "2025-03-19T07:37:43Z",
       "proof": {
         "type": "Ed25519Signature2020",
         "proofPurpose": "assertionMethod",
-        "proofValue": "z42GXGo729nmyQGg8dmtWCcFbsm4MSmCZw8fd3vskAe85jFkrxx5q5wf7t1bzFgAypngTV32SEv8ZMczNYHwxL8Fq",
+        "proofValue": "zN1LnWMRrwvqvbq8iE4txEPNUHf3wCwsHo96ZyhHR6vgXvC6DKhyBSciMut8qTuKNUBZA7fmbtokLuwuTmSQdayB",
         "verificationMethod": "did:web:id-broken-plus-well-known-example.identinet.io#ahQ27FmA_0GfMt_95GFvhBA0RpiDgkyGqsVVXPqxV0w",
-        "created": "2025-03-18T10:49:34.473161396Z"
+        "created": "2025-03-19T07:37:43.911623271Z"
       }
     }
   ],
   "proof": {
     "type": "Ed25519Signature2020",
     "proofPurpose": "assertionMethod",
-    "proofValue": "z4F9msCPkZQjCfoi3aeL3v9anguWnxKZQnWPxSveqTetbC67gsnDRJcB9oKcvnnSp321s3WDUCQkK46omH8VoZxAg",
+    "proofValue": "z4vYJ6n6k5TxbyZHJKe8p4XiBGFr2UZM4VScjgpnw94WChaGCrotgZbsUAMWsXC7MreCYnCaWMG6MKaH1EGsBN5Jv",
     "verificationMethod": "did:web:id-broken-plus-well-known-example.identinet.io#ahQ27FmA_0GfMt_95GFvhBA0RpiDgkyGqsVVXPqxV0w",
-    "created": "2025-03-18T10:49:34.652954057Z"
+    "created": "2025-03-19T07:37:44.107799549Z"
   },
   "holder": "did:web:id-broken-plus-well-known-example.identinet.io"
 }
